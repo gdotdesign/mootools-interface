@@ -40,7 +40,6 @@ Class.Mutators.initialize = function(fn){
 		for (var i = 0; i < interfaces.length; i++){
 			var iface = interfaces[i];
 			for (var key in iface){
-			  console.log(key in this, key, this)
 				if (key.charAt(0) == '$') continue; // Skip Internal
 				
 				if (!(key in this)) throw new Error('Instance does not implement "' + key + '"');
