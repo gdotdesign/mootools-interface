@@ -16,4 +16,4 @@ category: Native
 tags: [interface, typeOf, instanceOf]
 
 sources:
-    - "Source/Interface.js"
+    - "Source/Interface.coffee"
